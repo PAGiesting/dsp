@@ -61,3 +61,9 @@ Sublime is probably the most popular editor for new coders. You can set it up to
 Spyder and PyCharm are IDEs for Python. They try to give you a fully configured setup out of the box.
 
 We will also use Jupyter notebooks, but this does not remove the need for proficiency in an editor or IDE.
+
+#### Comments for editors:
+Pine was my first email client, so I am very familiar with nano.
+I went through the vim tutorial, overcoming decades of terror.
+I downloaded VSCode during my prework for the other bootcamp I was thinking of taking, and have also practiced a bit in Spyder.
+I use Kate on Linux as my default editor.
