@@ -57,5 +57,5 @@ Here's your first chance to practice this:
 
 What is your favorite emoji?  (Check out this [emoji cheat sheet](http://www.emoji-cheat-sheet.com/).)
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+### A. I do not have a favorite emoji. I despise emojis with the heated passion of an early O-type Wolf-Rayet star. I searched the cheat sheet for "jeep", "saturn", and "lava", and nothing came up, so I rest on my initial statement.
 
