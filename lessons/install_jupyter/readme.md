@@ -15,8 +15,4 @@ Review the [installation instructions](jupyter_notebook_1_install.md) and instal
 >### Part 2:  Using the Notebook 
 Review the [notes on using Jupyter Notebook](jupyter_notebook_2_use.md) and create a test notebook.  Do some practice and get accustomed to navigating around the notebook.  
 
- 
- 
- 
-
-
+ ###### Created two test notebooks. Tried to run some code on a datafile. Checked out markdown.
