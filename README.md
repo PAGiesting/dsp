@@ -69,3 +69,6 @@ Yes
 
 #### Q:  Can I ask for hints for python questions?
 Yes
+
+#### Q:  Has PAG edited this file?
+You're darn right he has.
