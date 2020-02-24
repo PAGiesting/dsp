@@ -47,7 +47,8 @@ import sklearn
 
 Did you install Python 2 or 3? Why?  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+#### A. Installed Anaconda with Python 3, because 1) you said Python 3 and 2) who wants to use old stuff anyway?
+Hopefully Python 2 withers away in a few years because I've barely started learning Python and it's already really annoying.
 
 ### Q2. Which Python Version Installed   
 
@@ -55,7 +56,11 @@ In the Terminal:
 
 `python3 --version`
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+#### A. 
+```bash
+Python 3.7.6
+```
+
 
  
 
