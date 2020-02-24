@@ -22,3 +22,8 @@ The students will learn:
 # Additional Resources
 
 [Git Cheat Sheet](http://files.zeroturnaround.com/pdf/zt_git_cheat_sheet.pdf)
+
+## Comments
+Followed along with slides.
+The nyc20_dsp?? repository is not available yet.
+I cloned into the dsp repository at thisismetis and into my own fork at PAGiesting.
