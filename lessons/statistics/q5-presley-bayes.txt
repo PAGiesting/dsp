@@ -1,0 +1,35 @@
+Questions 5 and 6
+Bayesian probability & statistics
+
+
+Q5. Elvis Presley had a twin brother who died at birth. What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.
+
+Bayes' theorem states:
+
+P(A|B) = [ P(A) / P(B) ] * P(B|A)
+
+I can't make the simple mapping A -> fraternal twin, B -> identical twin...
+well, I can, but then the joint probabilities are 0, and that's trivial.
+What I can do is map A -> twin in general and B -> fraternal or identical.
+The question is phrased, "was an identical twin?" so let B -> identical twin.
+
+Now
+P(A) = P(fraternal **or** identical) = 1/125 + 1/300 = 12/1500 + 5/1500 = 17/1500
+P(B) = P(identical) = 1/300
+P(A|B) = 1: given that I am an identical twin, my chance of being a twin is 100%.
+
+Therefore P(B|A) = P(A|B) * [ P(B) / P(A) ] = 1 * 1/300 / (17/1500)
+ = 1500 / 300 / 17 = 5/17
+
+There was, given those probabilities, a 5 in 17 chance that the world was simply not ready for two identical copies of The King.
+
+
+Q6. How do frequentist and Bayesian statistics compare?
+
+Dear God, you want us to provide some succinct statement to sum up this wasps' nest? Half an hour or so's reading of internet discussions of the subject mostly causes me to suspect that people who call themselves Bayesian statisticians are very smug people who are quite willing to erect strawman versions of frequentist theory so that they can ridicule them.
+
+That said, the best summary I can give (that half an hour's reading is hardly my whole experience with the theory of statistics, but obviously it was the direct cause of what I'm about to say):
+
+Frequentist statistics tend to focus on the probability of an event in the context of a summary of some amount of data. In some conceptual sense, there may be no theoretical desire to comment on the probability of a single event, or a hypothesis, but rather on certain more abstract and controlled quantities. One very commonly used concept / quantity in frequentist statistics is the p-value. A p-value is a quantity constructed in order to be able to quantify the likelihood that two samples actually come from populations with identical distributions, or equivalently a single population. Strictly speaking, a p-value should represent the proportion of Type I errors made, which are errors mistaking samples from a common population for samples from distinct populations, over some long series of statistical analyses. Supposedly, they do not actually represent the likelihood of a single statistical judgment being wrong, although in practical application the numeric distinction between the two measures is small.
+
+Bayesian statistics focus on using mechanisms derived from Bayes' theorem to update probability estimates. A Bayesian has to start with a prior probability and uses data to calculate posterior probabilities; this framework lends itself to iterative procedures. Bayesians claim that their outlook on the world is more "natural" and more like what the "person on the street" thinks about the concept of probability. Every individual event can at least be thought of as having a probability, although my reading of Carnap's Logical Foundations of Probability 3-4 years ago (I **finished** reading it in Jan 2017, but it probably took me 9 months to a year) made me very aware that at least in his paradigm, much work is done with an implicit or explicit rejection of the idea that one could specify a number for the probability at any given point; a lot of work gets done in a relative paradigm of more and less in that book.
